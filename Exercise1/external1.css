@@ -44,7 +44,12 @@
   border-right:solid 1px black;
 }
 
-#drop_down
+#nav_bar li:hover ul 
+{
+  display:block;
+}
+
+#nav_bar ul
 {
   list-style-type:none;
   display:none;
@@ -53,14 +58,14 @@
   border-bottom:solid 1px #6d6d6d;
   border-left:solid 1px #6d6d6d;
   border-right:solid 1px #6d6d6d;
-  border-width:1px;
+  
   position:absolute;
   left:-1px;
   background-color:#fff;
-  top:48px;
+  
 }
 
-#drop_down li
+#nav_bar ul li
 {
   float:none;
   height:auto;
@@ -73,15 +78,12 @@
   left:0px;
 }
 
-#nav_bar li:hover ul 
+#nav_bar ul li:hover
 {
-  display:block;
-}
-
-#drop_down li:hover
-{
+  
   font:italic 14px Georgia;
-  padding:5px 0px 5px 0px;
+  padding-top:5px;
+  padding-bottom:5px;
   border-bottom-color:#cfcfcf;
   border-width:0px 0px 1px 0px;
   color:#bd0707;
