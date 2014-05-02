@@ -46,6 +46,7 @@
 
 #nav_bar li:hover ul 
 {
+
   display:block;
 }
 
@@ -57,12 +58,11 @@
   width:180px;
   border-bottom:solid 1px #6d6d6d;
   border-left:solid 1px #6d6d6d;
-  border-right:solid 1px #6d6d6d;
-  
+  border-right:solid 1px #6d6d6d; 
   position:absolute;
   left:-1px;
   background-color:#fff;
-  
+  top:48px;
 }
 
 #nav_bar ul li
