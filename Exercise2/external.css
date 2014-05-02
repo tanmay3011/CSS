@@ -81,4 +81,87 @@ a
   padding:20px;
   text-align:center;
   color: black;
+}body
+{
+  margin:0px;
+  font-family: tahoma,arial; 
+  font-size: 14px;
+}
+
+.wrap
+{
+  width:1000px;
+  margin:0 auto;
+  background:url("exercise2-bg.gif") repeat-y;
+}
+
+.header
+{
+  background-color:#b2e7ff;
+  border-bottom: solid 2px #0ab1ff;
+  color:black;
+  font-size:24px;
+  text-align:center;
+  padding:20px;
+}
+.container1
+{
+  width:1000px;
+  overflow:hidden;
+}
+.side
+{
+  width:230px;
+  float:left;
+  padding:25px 10px 25px 10px;
+  font-size:18px;
+
+}
+.side ul
+{
+  margin-left:10px;
+  padding:10px;
+}
+.side ul li
+{
+  color:white;
+  padding:8px 8px 8px 2px;
+}
+a
+{
+  color: white; 
+  text-decoration: none;
+}
+.side1
+{
+  padding-top:10px;
+  font-size:12px;
+}
+.content
+{
+  float:left;
+  padding:20px;
+  width:710px;
+  position:relative;
+}
+.heading_right
+{
+  font-size:24px;
+  margin-bottom:10px;
+}
+.content p
+{
+  color:#802525;
+  padding-top:10px;
+  padding-bottom:10px;
+  text-align:justify;
+}
+.footer
+{
+  background-color:#3cff78;
+  border-bottom:solid 2px #0ab1ff;
+  font-size:24px;
+  padding:20px;
+  text-align:center;
+  color: black;
 }

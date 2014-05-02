@@ -2,13 +2,12 @@
 {
   margin:0px;
   padding:0px;
-
 }
 
 #nav_bar
 {
   list-style-type:none;
-  height:48px;
+  height:37px;
   width: 702px;
   border-bottom: solid 1px #6d6d6d; 
 }
@@ -18,11 +17,12 @@
   float:left;
   left:0px;
   margin-left:2px;
-  padding: 10px 20px 0px 20px;
+  padding: 0px 20px 0px 20px;
   height:37px;
   font:italic 18px Georgia;
   background-color:#CFCFCF;
   position:relative;
+  font:italic 18px Georgia;
 }
 
 #nav_bar a
@@ -33,11 +33,9 @@
 
 #nav_bar li:hover
 {
-  padding: 10px 20px 0px 20px;
+
   color:#8c8c8c;
-  font:italic 18px Georgia;
   background-color:white;
-  cursor:pointer;
   border-bottom:solid 1px white;
   border-top:solid 1px black;
   border-left:solid 1px black;
@@ -46,7 +44,6 @@
 
 #nav_bar li:hover ul 
 {
-
   display:block;
 }
 
@@ -62,7 +59,7 @@
   position:absolute;
   left:-1px;
   background-color:#fff;
-  top:48px;
+  top:38px;
 }
 
 #nav_bar ul li
@@ -76,14 +73,13 @@
   padding-bottom:5px;
   border-bottom:solid #cfcfcf 1px;
   left:0px;
+  font:italic 14px Georgia;
 }
 
 #nav_bar ul li:hover
 {
-  
-  font:italic 14px Georgia;
-  padding-top:5px;
-  padding-bottom:5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   border-bottom-color:#cfcfcf;
   border-width:0px 0px 1px 0px;
   color:#bd0707;
