@@ -1,0 +1,142 @@
+body
+{
+  font-family: tahoma,arial;
+  margin: 0px;
+}
+
+.main
+{
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.header
+{
+  border-bottom: solid #db2927 2px;
+}
+
+.header_text
+{
+  font-size: 13px;
+  margin-bottom:5px;
+}
+
+.link
+{
+  font-size: 13px;
+  color:#045198;
+  text-decoration: none;
+  padding-right: 10px;
+}
+
+.text_align
+{
+  margin-top:-20px;
+  padding: 0px;
+  float:right;
+}
+
+
+.form
+{
+  margin:0 auto;
+  padding-top: 20px;
+  position:relative;
+  width:600px;
+
+}
+
+.form_frame
+{
+  background-color:#ececec;
+  border: solid #bcbcbc 1px;
+  padding: 20px 25px 20px 25px;
+  width: 500px;
+  height: auto;
+}
+
+h1
+{
+  font-size: 18px;
+  color:#2c286d;
+}
+
+dl
+{
+  overflow: hidden;
+  margin: 0px;
+}
+
+dl dt
+{
+  float:left;
+  clear: left;
+  font-size: 14px;
+  padding-right:20px;
+  width:110px;
+  padding-top:10px;
+  text-align:right;
+}
+
+dl dd
+{
+  padding-top:8px;
+  float:left;
+  margin: 0px;
+}
+
+.input
+{
+  width:360px;
+  height:25px;
+  border: solid #b9b9b9 1px;
+  float: left;
+  margin: 0px;
+  padding: 0px;
+}
+
+.date
+{
+  width:100px;
+  font-size:13px;
+  color: #6f6f6f;
+  float:left;
+  padding:5px;
+}
+
+.margin
+{
+  margin-right: 30px;
+}
+
+.gender
+{
+  
+  font-size:13px;
+  color:#6f6f6f;
+  float:left;
+  width: 80px;
+ 
+}
+
+dl dd textarea
+{
+  border: solid #b9b9b9 1px;
+  background-color:white;
+  width:360px;
+  height:135px;
+  margin: 0px;
+  padding: 0px;
+  resize:none;
+}
+
+.submit_button
+{
+  background-color:#dc2927;
+  border: solid #a10200 2px;
+  width:130px;
+  height:32px;
+  text-align:center;
+  font-size: 14px;
+  color:white;
+}
